@@ -25,7 +25,7 @@ jobs:
 
                   # Edit the following environment variables
                  # The ID portion from your gist url
-                  GIST_ID: ${{ secrets.GIST_ID }
+                  GIST_ID: ${{ secrets.GIST_ID }}
                   TIMEZONE: Asia/Seoul
                   ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
                   K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
